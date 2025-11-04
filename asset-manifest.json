@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.7cd222d6.css",
-    "main.js": "/static/js/main.90e40e01.js",
+    "main.js": "/static/js/main.9c826860.js",
     "static/media/test-map.jpg": "/static/media/test-map.2ddc5152212fbc912dde.jpg",
     "static/media/grass.jpg": "/static/media/grass.ff1e23613a3c3b5759cc.jpg",
     "static/media/test.FBX": "/static/media/test.8fba415ae71bc5c6777f.FBX",
     "static/media/solar-panel.jpg": "/static/media/solar-panel.c7bc9cee6cf6c44824fb.jpg",
     "index.html": "/index.html",
     "main.7cd222d6.css.map": "/static/css/main.7cd222d6.css.map",
-    "main.90e40e01.js.map": "/static/js/main.90e40e01.js.map"
+    "main.9c826860.js.map": "/static/js/main.9c826860.js.map"
   },
   "entrypoints": [
     "static/css/main.7cd222d6.css",
-    "static/js/main.90e40e01.js"
+    "static/js/main.9c826860.js"
   ]
 }
