@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.f259816d.css",
-    "main.js": "/static/js/main.d6b428a4.js",
+    "main.css": "/static/css/main.a0d5ce06.css",
+    "main.js": "/static/js/main.2286b001.js",
     "static/media/test-map.jpg": "/static/media/test-map.2ddc5152212fbc912dde.jpg",
     "static/media/grass.jpg": "/static/media/grass.ff1e23613a3c3b5759cc.jpg",
     "static/media/test.FBX": "/static/media/test.8fba415ae71bc5c6777f.FBX",
     "static/media/solar-panel.jpg": "/static/media/solar-panel.c7bc9cee6cf6c44824fb.jpg",
     "index.html": "/index.html",
-    "main.f259816d.css.map": "/static/css/main.f259816d.css.map",
-    "main.d6b428a4.js.map": "/static/js/main.d6b428a4.js.map"
+    "main.a0d5ce06.css.map": "/static/css/main.a0d5ce06.css.map",
+    "main.2286b001.js.map": "/static/js/main.2286b001.js.map"
   },
   "entrypoints": [
-    "static/css/main.f259816d.css",
-    "static/js/main.d6b428a4.js"
+    "static/css/main.a0d5ce06.css",
+    "static/js/main.2286b001.js"
   ]
 }
