@@ -29,7 +29,23 @@ export default function handler(req, res) {
     })
     .then(() => {
       if (req.method === 'POST') {
-        const { name, value } = req.body;
+
+
+        // const { name, value } = req.body;
+
+        let body = {};
+
+        if (req.method === "POST") {
+          try {
+            body = JSON.parse(req.body);
+          } catch (e) {
+            return res.status(400).json({ error: "Invalid JSON body" });
+          }
+        }
+
+        const { name, value } = body;
+
+
         return client.query(
           'INSERT INTO "panel-list" (name, value) VALUES ($1, $2) RETURNING *',
           [name, value]
