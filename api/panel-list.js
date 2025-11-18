@@ -1,8 +1,20 @@
 import { Client } from '@neondatabase/serverless';
 
 export default function handler(req, res) {
+
+  res.setHeader("Access-Control-Allow-Credentials", "true");
+  res.setHeader("Access-Control-Allow-Origin", "*"); // or your domain
+  res.setHeader("Access-Control-Allow-Methods", "GET,POST,OPTIONS");
+  res.setHeader("Access-Control-Allow-Headers", "Content-Type");
+
+  // Handle browser preflight request
+  if (req.method === "OPTIONS") {
+    return res.status(200).end();
+  }
+
+
   const client = new Client({ connectionString: process.env.DATABASE_URL });
-  console.log("Connecting to database...");
+
   client.connect()
     .then(() => {
       // Create table if not exists
