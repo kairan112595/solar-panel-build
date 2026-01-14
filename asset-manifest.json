@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.97f70b1a.css",
-    "main.js": "/static/js/main.b9a35f9d.js",
+    "main.js": "/static/js/main.06c5aa7d.js",
     "static/js/977.9ee0530f.chunk.js": "/static/js/977.9ee0530f.chunk.js",
     "static/js/455.36fb7b88.chunk.js": "/static/js/455.36fb7b88.chunk.js",
     "static/media/test-map.jpg": "/static/media/test-map.2ddc5152212fbc912dde.jpg",
@@ -10,12 +10,12 @@
     "static/media/solar-panel.jpg": "/static/media/solar-panel.c7bc9cee6cf6c44824fb.jpg",
     "index.html": "/index.html",
     "main.97f70b1a.css.map": "/static/css/main.97f70b1a.css.map",
-    "main.b9a35f9d.js.map": "/static/js/main.b9a35f9d.js.map",
+    "main.06c5aa7d.js.map": "/static/js/main.06c5aa7d.js.map",
     "977.9ee0530f.chunk.js.map": "/static/js/977.9ee0530f.chunk.js.map",
     "455.36fb7b88.chunk.js.map": "/static/js/455.36fb7b88.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.97f70b1a.css",
-    "static/js/main.b9a35f9d.js"
+    "static/js/main.06c5aa7d.js"
   ]
 }
